@@ -13,5 +13,10 @@ namespace GitHub
             form2.Show();
             this.Hide();
         }
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            label2.Text = comboBox1.SelectedItem.ToString();
+        }
     }
 }
